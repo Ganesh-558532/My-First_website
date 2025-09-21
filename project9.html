@@ -1,0 +1,90 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Timetable</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+   text-align: center;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    td:hover {
+      background-color: #e6e6e6;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Weekly Timetable</h2>
+
+<table>
+  <tr>
+    <th>Time</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+  </tr>
+  <tr>
+    <td rowspan="2">9:00 AM - 10:00 AM</td>
+    <td>Math</td>
+    <td>English</td>
+    <td>Science</td>
+    <td>History</td>
+    <td>Art</td>
+  </tr>
+  <tr>
+    <!-- The first cell is empty since it's covered by the rowspan above -->
+    <td></td>
+    <td>Physics</td>
+    <td>Geography</td>
+    <td>Chemistry</td>
+    <td>Physical Education</td>
+  </tr>
+  <tr>
+    <td colspan="2">10:15 AM - 11:15 AM</td>
+    <td>Physics</td>
+    <td>Geography</td>
+    <td>Chemistry</td>
+    <td>Math</td>
+   
+  </tr>
+  <tr>
+    <td rowspan="3">11:30 AM - 12:30 PM</td>
+    <td>Biology</td>
+    <td>History</td>
+    <td>English</td>
+    <td>Physics</td>
+    <td>Math</td>
+  </tr>
+  <tr>
+    <!-- The first cell is empty since it's covered by the rowspan above -->
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Math</td>
+    <td></td>
+  </tr>
+  <tr>
+    <!-- The first cell is empty since it's covered by the rowspan above -->
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>English</td>
+  </tr>
+  <!-- Add more rows for additional timings or days -->
+</table>
+
+</body>
+</html>
+

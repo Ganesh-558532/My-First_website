@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        img, iframe {
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        img:hover, iframe:hover {
+            transform: scale(1.1);
+        }
+
+        /* Gradient styles */
+        .image-container {
+            background:black;
+            padding: 20px;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .iframe-container {
+            background: brown;
+            padding: 20px;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-container">
+        <h2 style="color:white">Displaying an Image:</h2>
+        <img src="acr.png" alt="Example Image" width="600" height="300">
+    </div>
+
+    <div class="iframe-container">
+        <h2 style="color:white">Displaying an Iframe:</h2>
+        <iframe src="image4.png" width="600" height="400"></iframe>
+    </div>
+</body>
+
+</html>

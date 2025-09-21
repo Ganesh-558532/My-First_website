@@ -1,0 +1,123 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Stylish Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 10px;
+            width: 100%;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #0066cc;
+        }
+
+        section {
+            margin: 20px;
+            text-align: center;
+        }
+
+        #nike, #amaz, #goog {
+            position: relative;
+            display: inline-block;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        #nike {
+            width: 250px;
+            height: 100px;
+        }
+
+        #amaz,
+        #goog {
+            width: 250px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Your Search tabs</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Your History </h2>
+        <!-- Your existing content goes here -->
+    </section>
+
+    <section id="products">
+        <h2>Reacents</h2>
+        <div id="first">
+            <a href="https://www.nike.com/in/" style="font-size:30px;">
+                <div id="nike"><img src="nike.png" alt="Nike Logo"></div>
+            </a>
+        </div>
+
+        <div id="second">
+            <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwif27jgue6DAxUJqWYCHUthDOYYABAAGgJzbQ&ase=2&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe51-EPN_XMarGnab7kjWGQyW5D6HGhSIfaSJ_skvAIOHvYyj_Satzz4aAg5AEALw_wcB&ohost=www.google.com&cid=CAESV-D2MspZoF0JN4VUsdIgicltd5FU27nVzRPhpSk2R5sKktVuRX-CU12mapjWBP8yFrW0HTqN73ojuwXA6VqI2jhHKvPakj0FsEa3q6e6zQaIiNGtpNK-_A&sig=AOD64_1JxSgSEAIAnO6-yijvggqjlsNhuw&q&nis=4&adurl&ved=2ahUKEwjlh7Pgue6DAxUlTWwGHUIJCtIQ0Qx6BAgOEAE" style="font-size:30px; text-align:center">
+                <div id="amaz"><img src="amazon.png" alt="Amazon Logo"></div>
+            </a>
+        </div>
+
+        <div id="third">
+            <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjlh7Pgue6DAxUlTWwGHUIJCtIQPAgJ" style="font-size:30px;">
+                <div id="goog"><img src="google.png" alt="Google Logo"></div>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us:- 998132759</h2>
+        <!-- Add your contact form or information here -->
+    </section>
+</body>
+
+</html>
+

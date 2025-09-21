@@ -1,0 +1,80 @@
+<html>
+<head> <title></title><head>
+<style>
+
+  #form-box {
+                background:linear-gradient(to bottom, #66ffff 23%, #ccffcc 100%);
+            width: 40%;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            position:absolute;
+            left:600px;
+top:20px;
+   } 
+#form-box:hover{
+  transform: scale(1.1);
+
+}
+img {
+            position: absolute;
+            top: 50px;
+            left: 10px;
+            height: 300px;
+            width: 400px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+</style>
+<body>
+<img src="https://static.theprint.in/wp-content/uploads/2023/04/women.jpg" height="300px width:200px;" style="position:absolute; top:50px; left:10px;">
+<form> <div id="form-box"> <div>
+<h1 "> UPSI fORM</h1>
+      <label for ="frame"> Enter Your Name </label>
+      <input type = text id="frame" name= "frame"></input>
+      </div><br>
+<div>
+      Enter Father Name   <input type ="text">
+</div> <br>
+ <div>
+      Enter Mother Name   <input type ="text">
+</div>
+<br>  <div>
+      <lable for ="password"> Enter Your Password</lable>
+      <input type ="password" id="frame" name ="pass"></input>
+</div>
+<br>
+      <div> <lable for "gender"> Select Your Gender </lable>
+     <input type= radio name = "gender" value ="male"> Male </input>
+     <input type= radio name = "gender" value ="female"> Fmale </input></div> <br>
+      
+     <lable for "gender"> select your caste  </lable><br>
+     <input type= radio name = "caste" value ="gen"> General </input><br>
+     <input type= radio name = "caste" value ="obc"> Obc </input><br>
+     <input type= radio name = "caste" value ="st"> St </input><br>
+     <input type= radio name = "caste" value ="sc"> Sc </input> <br>
+
+ 
+<br> <div>
+     <label for ="subjects"> Select The Subject  </label> <br>
+     <input type = checkbox name ="subjects" value=""> Web designing </input> <br>
+     <input type = checkbox  name ="subjects" value="NM"> numerical method </input> <br> 
+     <input type = checkbox name ="subjects" value="coa"> computer application </input> </div> <br> 
+<div>
+
+     <lable for= "course"> Select The Course </label><br>
+     <select id= "course" name="stream" size 3 multiply>
+     <option value="cs"> computer science </option>
+     <option value="it"> information technology </option>
+     <option value="bca" >computer application </option>
+     <option value="ai"> artificial intelligence </option>
+</div> <br
+
+</div>
+
+</body>
+</html>
